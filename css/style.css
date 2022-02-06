@@ -94,18 +94,18 @@ header button:hover {
 
 header img {
     width: 200px;
-    animation: logo 5s ease infinite;
+    animation: logo 5s ease-in-out infinite;
 }
 
 @keyframes logo {
     0%{
-        width: 200px;
+        transform: scale(1);
     }
     50%{
-        width: 215px;
+        transform: scale(1.1);
     }
     100%{
-        width: 200px;
+        transform: scale(1);
     }
 }
 
